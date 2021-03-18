@@ -1,9 +1,42 @@
 body {
-  margin: 0;
+  font-style: Roboto, sans-serif;
+  margin: auto;
 }
 
-header img {
+header > * {
+  display: inline-block;
+}
+
+header {
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.logo {
   padding-top: 30px;
   padding-bottom: 29.69px;
-  padding-left: 5em;
+  padding-left: 6.5%;
+  width: 119.23px;
+  height: 12.31px;
+  display: inline-block;
+}
+
+.sign-in-button {
+  border: 1px solid #E0E0E0;
+  background-color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 63%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.sign-in {
+  color: #1D1D1D;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  margin:auto;
 }
