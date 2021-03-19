@@ -8,6 +8,12 @@ header {
   display: flex;
 }
 
+main {
+  padding-right: 7.7%;
+  padding-left: 6.7%;
+  font-size: 16px;
+}
+
 .logo {
   padding-top: 30px;
   padding-bottom: 29.69px;
@@ -42,4 +48,29 @@ header {
   margin-bottom: 25.35px;
   margin-left: 27px;
   margin-right: 8,6%;
+}
+
+.search-block {
+  border-bottom: 1px solid #bec1c4;
+  margin-top: 56px;
+}
+
+.search-input  {
+  border:none;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+}
+
+.search-input:focus{
+  outline: none;
+}
+
+.search-input::placeholder,
+.search-input::-webkit-input-placeholder,
+.search-input:-ms-input-placeholder,
+.search-input::-ms-input-placeholder {
+  color: #bec1c4;
+  line-height: 24px;
+  font-size: 16px;
 }
