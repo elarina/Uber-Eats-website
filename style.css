@@ -155,7 +155,15 @@ footer {
   color: #ffffff;
   width: 227px;
   height: 40px;
+/*  background-image:url(img/world.svg);
+  background-repeat: no-repeat;
+  background-position: left;*/
+
+  /*background: left no-repeat 50% 50% url("img/world.svg");*/
+
   background: no-repeat left url("img/world.svg");
+
+  back
 }
 
 .language-option-text {
