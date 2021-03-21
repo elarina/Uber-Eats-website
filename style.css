@@ -1,5 +1,6 @@
 body {
   font-style: Roboto, sans-serif;
+  font-size: 16px;
   margin: auto;
 }
 
@@ -122,4 +123,76 @@ main {
   font-size: 13px;
   line-height: 21px;
   color: #1D1D1D;
+}
+
+footer {
+  background-color: #262626;
+  background-size: cover;
+  height: 552px;
+  margin-top: 90px;
+  padding-left: 6.5%;
+  padding-right: 7.7%;
+  padding-top: 56px;
+}
+
+.white_logo {
+  width: 190.77px;
+  height: 19.69px;
+}
+
+.line {
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.4;
+  margin-top: 40.69px;
+}
+
+.language {
+  padding-left: 20px;
+  margin-top: 32px;
+  background-color: #3B3B3B;
+  color: #ffffff;
+  width: 227px;
+  height: 40px;
+/*  background-image:url(img/world.svg);
+  background-repeat: no-repeat;
+  background-position: left;*/
+
+  /*background: left no-repeat 50% 50% url("img/world.svg");*/
+
+  background: no-repeat left url("img/world.svg");
+
+  back
+}
+
+.language-option-text {
+
+}
+
+.footer-menu-item {
+  color: #ffffff;
+  padding-top: 32px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.uber-eats-hashtag {
+  font-size: 19px;
+  color: green;
+}
+
+.uber-eats-text {
+  font-style: sans-serif;
+  font-size: 19px;
+}
+
+.facebook-logo {
+  padding-right: 8.16px;
+}
+
+.twitter-logo {
+  padding-right: 8.15px;
+}
+
+.instagram-logo {
 }
