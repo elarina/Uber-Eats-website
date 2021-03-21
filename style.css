@@ -97,11 +97,12 @@ main {
 }
 
 .store-card {
-  margin-right: 16px;
+  margin-right: 6px;
 }
 
 .store-photo {
   margin-top: 16px;
+  width: 100%;
 }
 
 .title {
