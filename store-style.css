@@ -1,0 +1,134 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  background-size: cover;
+  background-color: #ffffff;
+  margin: auto;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 29.69px;
+  padding-left: 6.5%;
+  width: 119.23px;
+  height: 12.31px;
+}
+
+@media screen and (max-width:780px) {
+  .logo {
+    padding-left: 0.5%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .logo {
+    padding-left: 1%;
+  }
+}
+
+.sign-in-button {
+  border: 1px solid #E0E0E0;
+  background-color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 63%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width:780px) {
+  .sign-in-button {
+      margin-left: 65%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .sign-in-button {
+      margin-left: 58%;
+  }
+}
+
+.sign-in {
+  color: #1D1D1D;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.basket {
+  width: 18.95px;
+  height: 21.74px;
+  margin-top: 24.91px;
+  margin-bottom: 25.35px;
+  margin-left: 27px;
+  margin-right: 8,6%;
+}
+
+
+.hero {
+  margin-top: 0;
+  padding-top: 72px;
+  height: 364px;
+  width: 100%;
+}
+
+.hero .container {
+  background-image: url("files/Restaurant/photo-0.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-top:0px;
+  overflow:auto;
+}
+
+.store-short-description {
+  background-color: #ffffff;
+  margin-left: 81px;
+  margin-top: 80px;
+  padding-left: 38px;
+  padding-top: 38px;
+  padding-right: 38px;
+  width: 315px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.description-title {
+  flex-grow: 10;
+  flex-basis: auto;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.item2 {
+  flex-grow: 1;
+  flex-basis: auto;
+  padding-top: 62px;
+  padding-bottom: 46px;
+  width: 172px;
+  font-size: 14px;
+}
+
+.delivery {
+  margin-bottom: 38px;
+  margin-top: 54px;
+  background-color: #262626;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  height: 32px;
+  border-radius: 16px;
+}
