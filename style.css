@@ -167,6 +167,11 @@ footer {
   font-weight: 400;
 }
 
+.footer-menu-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .uber-eats-hashtag {
   font-size: 19px;
   color: green;
