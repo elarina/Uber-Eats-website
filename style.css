@@ -155,12 +155,9 @@ footer {
   width: 227px;
   height: 40px;
   border: none;
+  outline: none;
   background: #3B3B3B no-repeat left url("img/world.svg");
   background-position-x: 8%;
-}
-
-.language:focus {
-  border: none;
 }
 
 .footer-menu-item {
