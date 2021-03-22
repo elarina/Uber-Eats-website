@@ -140,6 +140,7 @@ header {
   background-color: #262626;
   color: #ffffff;
   border: none;
+  outline: none;
   width: 100px;
   height: 32px;
   border-radius: 16px;
