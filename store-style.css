@@ -163,3 +163,53 @@ li {
 .navigation .choosen-item {
   color: #327430;
 }
+
+.dish-list {
+  padding-left: 90px;
+  padding-top: 39px;
+}
+
+.dish-list h1{
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.dish-card {
+  display: flex;
+}
+
+.dish-photo {
+  width: 170px;
+  height: 160px;
+  padding-right: 0;
+  text-align: right;
+}
+
+.dish-description {
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.dish-description .title {
+  color: #1D1D1D;
+  line-height: 24px;
+  padding-bottom: 4px;
+  padding-right: 45px;
+}
+
+.dish-description .ingr {
+  color: #626262;
+  font-size: 13px;
+  line-height: 21px;
+  padding-bottom: 65px;
+}
+
+.dish-description .price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+}
