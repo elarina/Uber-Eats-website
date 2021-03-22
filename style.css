@@ -9,7 +9,7 @@ header {
   background-size: cover;
   background-color: #ffffff;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   display: flex;
 }
@@ -215,4 +215,22 @@ footer {
   text-decoration: none;
   color: #ffffff;
   font-size: 11px;
+}
+
+.arrow-block {
+  position: fixed;
+  background-color: #59BD5A;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  padding-top: 27px;
+  padding-bottom: 28px;
+  margin-left: 85%;
+  margin-right: 16px;
+  bottom: 24px;
+
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
