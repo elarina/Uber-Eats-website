@@ -180,7 +180,7 @@ li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 49px;
-  min-width: 100%;
+  min-width: 470px;
   border-left: 1px solid lightgray;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
