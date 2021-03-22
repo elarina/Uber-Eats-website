@@ -20,12 +20,25 @@ main {
   font-size: 16px;
 }
 
+@media screen and (max-width:780px) {
+  main {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+}
+
 .logo {
   padding-top: 30px;
   padding-bottom: 29.69px;
   padding-left: 6.5%;
   width: 119.23px;
   height: 12.31px;
+}
+
+@media screen and (max-width:780px) {
+  .logo {
+    padding-left: 0.5%;
+  }
 }
 
 .sign-in-button {
@@ -38,6 +51,12 @@ main {
   padding-bottom: 12px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (max-width:780px) {
+  .sign-in-button {
+      margin-left: 65%;
+  }
 }
 
 .sign-in {
@@ -96,7 +115,7 @@ main {
   margin-bottom: 0;
 }
 
-.store-card {
+.store-card + .store-card {
   margin-right: 6px;
 }
 
@@ -222,15 +241,23 @@ footer {
   background-color: #59BD5A;
   background-size: cover;
   width: 80px;
-  height: 80px;
   padding-top: 27px;
-  padding-bottom: 28px;
+  padding-bottom: 24px;
   margin-left: 85%;
   margin-right: 16px;
   bottom: 24px;
-
-  padding-bottom: 28px;
   display: flex;
   justify-content: center;
   z-index: 1;
+}
+
+@media screen and (max-width:780px) {
+  footer {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .arrow-block {
+    margin-left: 86.5%;
+  }
 }
