@@ -149,19 +149,20 @@ footer {
 }
 
 .language {
-  padding-left: 20px;
+  padding-left: 15%;
   margin-top: 32px;
-  background-color: #3B3B3B;
   color: #ffffff;
   width: 227px;
   height: 40px;
+  border: none;
 /*  background-image:url(img/world.svg);
   background-repeat: no-repeat;
   background-position: left;*/
 
   /*background: left no-repeat 50% 50% url("img/world.svg");*/
 
-  background: no-repeat left url("img/world.svg");
+  background: #3B3B3B no-repeat left url("img/world.svg");
+  background-position-x: 8%;
 
   back
 }
@@ -188,12 +189,15 @@ footer {
 }
 
 .facebook-logo {
+  padding-top: 15px;
   padding-right: 8.16px;
 }
 
 .twitter-logo {
+  padding-top: 15px;
   padding-right: 8.15px;
 }
 
 .instagram-logo {
+  padding-top: 15px;
 }
