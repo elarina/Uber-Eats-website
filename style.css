@@ -206,3 +206,13 @@ footer {
 .dld-img + .dld-img {
   margin-left: 40.3px;
 }
+
+.footer-menu-small {
+  padding-top: 40px;
+}
+
+.footer-menu-link-small {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 11px;
+}
