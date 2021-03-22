@@ -1,5 +1,5 @@
 body {
-  font-style: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   margin: auto;
 }
@@ -163,7 +163,7 @@ footer {
 .footer-menu-item {
   color: #ffffff;
   padding-top: 32px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
 }
 
@@ -173,13 +173,14 @@ footer {
 }
 
 .uber-eats-hashtag {
-  font-size: 19px;
+  font-weight: 400;
+  font-size: 16px;
   color: green;
 }
 
 .uber-eats-text {
-  font-style: sans-serif;
-  font-size: 19px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .facebook-logo {
