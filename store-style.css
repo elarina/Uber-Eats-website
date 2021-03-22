@@ -165,7 +165,8 @@ li {
 }
 
 .dish-list {
-  padding-left: 90px;
+  padding-left: 83px;
+  padding-right: 87px;
   padding-top: 39px;
 }
 
@@ -177,6 +178,13 @@ li {
 
 .dish-card {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 49px;
+  min-width: 100%;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-right: 16px;
 }
 
 .dish-photo {
@@ -187,9 +195,6 @@ li {
 }
 
 .dish-description {
-  border-left: 1px solid lightgray;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
   padding-left: 16px;
   padding-top: 16px;
 }
@@ -198,18 +203,20 @@ li {
   color: #1D1D1D;
   line-height: 24px;
   padding-bottom: 4px;
-  padding-right: 45px;
+  padding-right: 38px;
+  white-space: nowrap;
 }
 
 .dish-description .ingr {
   color: #626262;
   font-size: 13px;
   line-height: 21px;
-  padding-bottom: 65px;
+  height:21px;
 }
 
 .dish-description .price {
   font-weight: 500;
   font-size: 15px;
   line-height: 21px;
+  padding-top: 58px;
 }
