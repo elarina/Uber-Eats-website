@@ -112,9 +112,61 @@ header {
   justify-content: left;
 }
 
+@media screen and (max-width: 320px) {
+  .store-short-description{
+    display: none;
+  }
+
+  main{
+    position: relative;
+  }
+
+  .description-block-320 {
+    position: absolute;
+    background-color: #ffffff;
+    width: 308px;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: calc(50% - 154px);
+    padding-top: 24px;
+    z-index: 1;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+  }
+
+  .description-title-320{
+    font-size:24px;
+    line-height: 28.13px;
+  }
+
+  .item2-320{
+    padding-top: 40px;
+    font-size: 14px;
+    line-height: 16.41px;
+  }
+
+  .delivery-320 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    background-color: #262626;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    width: 98px;
+    height: 32px;
+    border-radius: 16px;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .store-short-description {
       margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 321px){
+  .description-block-320{
+    display: none;
   }
 }
 
@@ -211,6 +263,11 @@ li {
 }
 
 @media screen and (max-width: 320px) {
+  .dish-list{
+    padding-top: 0px;
+    margin-top: 146px;;
+  }
+
   .dish-list h1{
       text-align: center;
   }
